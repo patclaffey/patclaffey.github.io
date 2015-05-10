@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Web and Blogging Site Setup
+title: Setting up a Web and Blogging Site on GitHub
 ---
 
 This is my first blog on my new GitHub hosted web-site.  What will I write my first blog about?
@@ -37,8 +37,10 @@ This is the challenging part.  Here are the steps I followed to install Jekyll o
 6. Fix the windows hittimes bug
 7. Run the Jekyll server
 
+The documentation provided by GitHub at ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/) 
+
 ###Installing Ruby on a Windows PC
-The first step in installing Jekyll is to installing the Ruby programming language.
+The first step in installing Jekyll is to install the Ruby programming language.
 This is needed because Jekyll is coded in Ruby.
 Here is how I installed Ruby on my Windows desktop.
 
