@@ -7,7 +7,7 @@ This is my first blog on my new GitHub hosted web-site.  What will I write my fi
 I think its fair game to write about my experience setting up a new blogging web-site on GitHub.
 
 As a GitHub user you can get one free static web-site.  They also provide a lean agile web development framework called Jekyll for maintaining the website.
-An additional incentive from GitHub is they supply a cool personal website url - my url is http://patclaffey.github.io
+An additional incentive from GitHub is they supply a cool personal website url - my url is [patclaffey.github.io]( http://patclaffey.github.io)
 
 Setting up the web site was easy.
 Setting up Jekyll on the desktop was a time consuming and frustrating process.
@@ -24,7 +24,7 @@ For more instructions head over to the [Jekyll Now repository](https://github.co
 ##Setting up a Personal Web-Site on GitHub
 This is the easy part.  GitHub provide clear [instructions for setting up a user web-site]( https://pages.github.com/ ).  A user web-site is created in a GitHub repository with the naming convention username.github.io - in my case patclaffey.github.io.  To test the web-site you need to upload a simple "Hello World" index.html file.
  The test file can be created with the command -  echo "Hello World" > index.html.
- I opened my browser at my personal url patclaffey.github.io - and success, "Hello World" was displayed in the browser.
+ I opened my browser at my personal url [patclaffey.github.io] ( http://patclaffey.github.io) - and success, "Hello World" was displayed in the browser.
  
 ##Setting up Jekyll on a Desktop
 This is the challenging part.  Here are the steps I followed to install Jekyll on my Windows 7 PC
@@ -65,7 +65,10 @@ I selected the development kit labelled "For use with Ruby 2.0 and 2.1 (32bits v
 
 ###Install Gem Bundler
 Bundler is a package manager that makes versioning Ruby software like Jekyll a lot easier.
-To install Bundler, run the command "gem install bundle".  This command should without any errors, provided that Gemfile is setup correctly.
+To install Bundler, run the command:
+
+    gem install bundle
+This command should without any errors, provided that Gemfile is setup correctly.
 
 
 ###Setup the file called Gemfile
@@ -77,18 +80,22 @@ gem 'github-pages'
 If Gemfile is created as above then the next step (Jekyll installation) fails with the following error:     
 ![Jekyll Install Error](/images/jekyll_install_error.PNG)
 
-The fix for this Jekyll installation error is to create Gemfile with the following two lines:     
-source 'https://rubygems.org'   
-gem 'github-pages'   
+The fix for this Jekyll installation error is to create Gemfile with the following two lines:
+
+    source 'https://rubygems.org'   
+    gem 'github-pages'   
 
 
 ###Install Jekyll
-To install Jekyll, run the command "bundle install".  This command should without any errors, provided that Gemfile is setup correctly.
+To install Jekyll, run the command:
+    bundle install
+This command should without any errors, provided that Gemfile is setup correctly.
  
 ###Fix Hitimes Require Error  (Windows Ruby 2.2 Issue)
    
-The command to run the Jekyll Server (from repository root directory) is :    
-bundle exec jekyll server    
+The command to run the Jekyll Server (from repository root directory) is :
+  
+    bundle exec jekyll server    
 
 On Windows, when using Ruby 2.2,  this results in the following Hitimes Require Error.
 
@@ -98,14 +105,15 @@ The fix for this error is described in StackOverflow article ["Hitimes Require E
 (http://stackoverflow.com/questions/28985481/hitimes-require-error-when-running-jekyll-serve-on-windows-8-1).
  
 ###Running the Jekyll Server
-The command to run the Jekyll Server (from repository root directory) is :      
-bundle exec jekyll server    
+The command to run the Jekyll Server (from repository root directory) is :
+
+    bundle exec jekyll server    
 
 Here is output from this command on my PC:   
 ![Jekyll Run Error](/images/jekyll_run.PNG)
  
 
-I can view the output served by Jekyll in my desktop browser at the url http://localhost:4000
+I can view the output served by Jekyll in my desktop browser at the url [http://localhost:4000](http://localhost:4000)
 
 
 
