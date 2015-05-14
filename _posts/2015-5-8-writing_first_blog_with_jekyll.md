@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Getting Started with Jekyll to Blog on a GitHub Web-Site
+title: Installing Blogging Software in a GitHub Web-Site
 ---
-Once I had my web-site configured on GitHub, and Jekyll installed and running on my desktop, I needed to learn how to write a blog using Jekyll.
-So this is the subject of my second blog - my experience get started with Jekyll as a blog writing tool.
+A GitHub web-site is like an empty container.
+Blogging software is needed to transform this empty container into a blogging site.
+Without blogging software it is simple not possible to start blogging.
+In the case of GitHub this blogging software needs to be compatible with Jekyll.
 
-To get started as a Jekyll user I followed the advice given by Barry Clark in his article ["Build a Blog with Jekyll and GitHub Pages](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
-This is a really excellent article and the perfect starting point for your journey as a Jekyll user.
+The blogging software for this web-site is written by Barry Clark.  It is called "Jekyll Now" - think of it as Wordpress for GitHub.
+Barry describes how to install "Jekyll Now" in his article ["Build a Blog with Jekyll and GitHub Pages](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
+This is a really excellent article and required reading for setting up a blogging site on GitHub.
 
-##Getting Started using Barry Clark's Starter Jekyll Web-Site
-I already had Jekyll installed and running on my desktop - but was missing the structure to launch a real web-site.
-What Barry provides is a great seed or starter web-site that gets you up and running quickly with a real useful Jekyll powered web-site:
+##Installing Jekyll Now Blogging Software
+Jekyll Now is like Wordpress for GitHub.
 
 1. Barry has prepared a repository that follows Jekyll best practices.
 This repository acts as the overall template for my web-site, and has saved me a ton of time.
