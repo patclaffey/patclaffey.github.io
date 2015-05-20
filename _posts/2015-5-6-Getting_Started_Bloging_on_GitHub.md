@@ -2,11 +2,12 @@
 layout: post
 title: Installing and Running Jekyll on Windows
 ---
-The GitHub web-site technology is called GitHub Pages.
-Jekyll is the web tool that underpins GitHub Pages.
+GitHub call their web-site technology GitHub Pages.
+GitHub Pages uses a web framework called Jekyll.
 Jekyll is a free open source product from the ruby programming community.
-Jekyll transforms the user's repository content into web pages displayed in a browser.
-It is important to install Jekyll locally to test the web-site before deploying to the world wide web.
+Jekyll takes the user's content and transforms it into web pages for display in a browser.
+GitHub advise that the user should install Jekyll on their local machine.
+This local Jekyll installation allows the user to test their web-site before release to the world wide web.
 
  
 ##Overview of Jekyll Installation Steps
