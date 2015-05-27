@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Blogging Software for GitHub
+title: Installing "Jekyll Now" Blogging Application
 ---
 A GitHub web-site is like an empty container.
 A blogging application is needed to transform this empty container into a functional blogging web-site.

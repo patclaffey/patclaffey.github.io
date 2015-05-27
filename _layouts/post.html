@@ -10,7 +10,9 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Started writing this blog on {{ page.date | date: "%B %e, %Y" }}
+	<br>
+	{% if page.updated %}Last updated this blog on {{ page.updated  }} {% endif %}
   </div>
 
   {% include disqus.html %}
