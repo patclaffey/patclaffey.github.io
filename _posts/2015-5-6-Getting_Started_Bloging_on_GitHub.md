@@ -1,7 +1,20 @@
 ---
 layout: post
 title: Installing and Running Jekyll on Windows
+updated: June 01, 2015
 ---
+Installing Jekyll on Windows is a royal pain.
+GitHub claim  in the article ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/) that installing Jekyll is easy.
+However, I beg to differ, and in this blog I describe in detail the steps I took to get Jekyll up and running on Windows.
+I am a big fan of open source software and the volunteers who make possible great products like Jekyll.
+I generally shrug off these kind of installation issues and move on.
+However in the case of Jekyll I give a blow by blow account of this installation.
+
+Part of the problem is that it is surprising difficult to install the Ruby language in the first place on Windows.
+This is my first install of a Ruby application as well as my first intall of the Ruby language environment itself.
+So this blog is like a case study of a fresh Ruby application install on a clean Windows PC.
+
+{% comment %}
 GitHub call their web-site technology GitHub Pages.
 GitHub Pages uses a web framework called Jekyll.
 Jekyll is a free open source product from the ruby programming community.
@@ -10,7 +23,7 @@ GitHub advise that the user should install Jekyll on their local machine.
 This local Jekyll installation allows the user to test their web-site before release to the world wide web.
 
  
-##Overview of Jekyll Installation Steps
+
 The page ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/) from GitHub
 is the guide for installing Jekyll for use with GitHub web-site.
 There is a lot of really useful information in this page, including good information on external Jekyll resources.
@@ -22,10 +35,12 @@ These multiple dependencies can make installation painful.
 The goal of this blog is to help others who want to install Jekyll on Windows,
 and also to suggest areas of improvement in the installation process.
 My main finding is that the issue is less a software problem than a documentation issue.
+{% endcomment %}
 
-
-
-The steps I followed to install Jekyll on my Windows 7 PC are as follows:
+##Overview of Jekyll Installation Steps
+The reference article for this install is ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/) from GitHub
+- I found these installation steps insufficient and incomplete.
+The actual steps I followed to install Jekyll on my Windows 7 PC are as follows:
 
 1. Install Ruby on Windows
 2. Download Ruby Development-Kit on Windows
@@ -134,14 +149,15 @@ I can view the output served by Jekyll in my desktop browser at the url [http://
 
 
 ##Conclusions
-The instructions in the page ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/) from GitHub completely
-underestimates the difficulty of installing Jekyll.  The page says that this installation is easy - this is certainly not my experience.
-The page should add instruction about downloading and installing the Ruby Development-Kit.
-It should also give crystal clear instructions on the contents of Gemfile.
+The GitHub instructions at ["Using Jekyll with Pages"](https://help.github.com/articles/using-jekyll-with-pages/)
+underestimate the difficulty of installing Jekyll.  They say that a Jekyll installation is easy - this is certainly not my experience.
+For example they omit instructions about downloading and installing the Ruby Development-Kit.
+They should also give crystal clear instructions on the contents of Gemfile.
 
 The Ruby Community should simplify and clarify the instructions for installing Ruby and the Ruby Development-Kit on Windows.
+For example a one-click express install for Windows would be very welcome.
 
 The Ruby Windows Hittimes bug should be fixed - this is the only software related issue found in this install.
 
-
+Jekyll works well on Windows - this blog was written on Windows and successfully pre-viewed on my PC using Jekyll.
 
