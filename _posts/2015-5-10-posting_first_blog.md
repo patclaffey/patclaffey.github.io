@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Posting my First Blog on GitHub
+title: Writing a Blog on the GitHub Hosted Web Site
 updated: May 27, 2015
 ---
-The original idea for my first blog was to write about my experience of writing my first GitHub blog.
+My original idea was to write my first blog about the experience of writing a GitHub hosted blog.
 Like the best laid plans of men and mice - that did not happen.
-In fact the first four blogs are about setting up a blogging site on GitHub.
-Now at last here in the *fifth* blog, (yes Madame, Blog Number 5) gets to the actual experience of writing a blog on GitHub.
-I think the most powerful feature of blogging on GitHub is the simplicity of the blogging work-flow.
+In fact the first four blogs are about the set up and configuration of a blogging site on GitHub.
+Now at last here in the *fifth* blog, (yes, Blog Number 5) I get to describing the experience of actually writing a blog on GitHub.
+The most powerful feature of blogging on GitHub is the simplicity of the blogging work-flow.
 This work-flow lets the blogger focus on writing the blog content
 and greatly simplifies the process of turning this writing into a blog. 
 
@@ -18,19 +18,6 @@ This is because a GitHub bogging application is also managed as a collection of 
 However in addition to the GitHub type steps - there are also steps specific to using Jeckyl Now as the blogging software.
 This section outlines the steps I follow, GitHub specific as well as Jeckyl Now specific, to write a blog.
 
-{%  comment %}
-The overall work-flow should look very familiar to the GitHub user.
-I also detail the steps that are specific to blogging using Jeckyl Now.
-
-This section details the steps I follow to write a blog.
-
-The nice thing about using GitHub as a blogging platform is that GitHub skills are re-purposed for maintaining blog content.
-The assumption is that a GitHub blogger is familiar with the Git client and with using GitHub as a central repository.
-The GitHub blogger will expect to follow the same work-flow for blogging as they follow for coding.
-So the blogging process starts on the local server where they have their Git client.
-New blog content is tested on the local Desktop.
-When the blogger is happy with the blog they push the blog to their GitHub account to publish on the internet.
-{%  endcomment %}
 ### Create a New Text File for the Blog
 The starting point for a new blog is creating a text file with your favorite text editor.
 Following standard GitHub work-flow this file is created on your local machine - in my case my windows desktop.
@@ -76,7 +63,7 @@ A syntax called MarkDown is used to format the blog.
 I found MarkDown very intuitive and quick to learn.
 I use these [Markdown cheat sheets as a quick primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on writing in Markdown.
 The MarkDown syntax is what I like most about this blogging software,
-its simplicity keeps the blogger's focus on writing.
+its simplicity keeps the focus on the content.
 
 ### Pre-view the Blog on the local server
 Writing a blog is a very interactive process.
@@ -101,7 +88,7 @@ I have now written five blogs about my GitHub blogging experience.
 The most frustrating aspect was setting up Jeckyl on my Windows PC.
 Jeckyl is the software that is required to pre-view blogs on the local machine before publishing to the web.
 My best discovery was installing the Jeckyl Now Blogging application written by Barry Clark.
-Barry's Jeckyl Now is like WordPress for GitHub - its the perfect starting point for GitHub blogging.
+Barry''s Jeckyl Now is like WordPress for GitHub - its the perfect starting point for GitHub blogging.
 I like to simplicity of the blogging work-flow such as using text files and MarkDown syntax.
 Once all the required software is installed I think that this will be a productive and fun way to blog.
 
@@ -116,18 +103,6 @@ The GitHub blogging needs to learn and become expert in the MarkDown protocol.
 I have been quite happy to learn MarkDown - I cannot imagine any easier and more intuitive way of formating text files.
 Looks like my experience of using MarkDown will be the subject of a future blog.
 {%  endcomment %}
-
-
-
-
-
-
-
-
-
-{% comment %}
-you have to set up a local development environment, install dependencies and figure out Jekyll’s build process.
-{% endcomment %}
 
 
 
