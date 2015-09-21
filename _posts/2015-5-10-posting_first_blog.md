@@ -6,10 +6,8 @@ updated: May 27, 2015
 My original idea was to write my first blog about the experience of writing a GitHub hosted blog.
 Like the best laid plans of men and mice - that did not happen.
 In fact the first four blogs are about the set up and configuration of a blogging site on GitHub.
-Now at last here in the *fifth* blog, (yes, Blog Number 5) I get to describing the experience of actually writing a blog on GitHub.
-The most powerful feature of blogging on GitHub is the simplicity of the blogging work-flow.
-This work-flow lets the blogger focus on writing the blog content
-and greatly simplifies the process of turning this writing into a blog. 
+Now at last here in the *fifth* blog, (yes, Blog Number 5) I can focus on the experience of actually writing a GitHub hosted blog.
+I like the simplicity of the its blogging work-flow.
 
 ##How to Create a new GitHub Blog
 As a software developer I am used to using Git and GitHub for managing software files as part of software projects.
