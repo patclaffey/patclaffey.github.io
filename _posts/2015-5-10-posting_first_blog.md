@@ -1,20 +1,19 @@
 ---
 layout: post
-title: Writing a Blog on the GitHub Hosted Web Site
+title: Posting a Blog on a GitHub Hosted Web Site
 updated: May 27, 2015
 ---
-My original idea was to write my first blog about the experience of writing a GitHub hosted blog.
+My original idea was to write my first blog about the experience of posting a GitHub hosted blog.
 Like the best laid plans of men and mice - that did not happen.
-In fact the first four blogs are about the set up and configuration of a blogging site on GitHub.
-Now at last here in the *fifth* blog, (yes, Blog Number 5) I can focus on the experience of actually writing a GitHub hosted blog.
-I like the simplicity of the its blogging work-flow.
+In fact the first four blogs are about the set up and configuration of a blogging application on GitHub.
+Now at last here in the *fifth* blog, (yes, Blog Number 5) I can focus on the experience of actually posting a GitHub hosted blog.
+Whats cool is the simplicity of its blogging work-flow.
 
 ##How to Create a new GitHub Blog
 As a software developer I am used to using Git and GitHub for managing software files as part of software projects.
-The GitHub blogger can expect to follow a similar work-flow for blogging as for their software project.
+The GitHub blogger can expect to follow the same work-flow. 
 This is because a GitHub bogging application is also managed as a collection of files in a GitHub repository.
-However in addition to the GitHub type steps - there are also steps specific to using Jeckyl Now as the blogging software.
-This section outlines the steps I follow, GitHub specific as well as Jeckyl Now specific, to write a blog.
+However in addition to the GitHub type steps - there are also steps specific to using Jeckyl Now as a blogging application.
 
 ### Create a New Text File for the Blog
 The starting point for a new blog is creating a text file with your favorite text editor.
