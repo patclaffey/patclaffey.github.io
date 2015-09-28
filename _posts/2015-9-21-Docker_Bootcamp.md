@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker Bootcamp
+updated: September 28, 2015
 ---
 I attended the Docker Hackaton organized by Demonware on the 19th Sept 2015 in Dublin.  The Hackaton was run as part of the Global Docker hacking weekend.  Our hosts / guides for the day were Tom and Nic from DemonWare.  The event took place in the WorkDay building in SmithField.  Thanks to WorkDay for providing the venue and Softlayer for the food and beverages.
 
