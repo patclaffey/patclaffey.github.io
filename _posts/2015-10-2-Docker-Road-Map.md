@@ -26,6 +26,7 @@ The image is a fundamental building block in Docker.  Docker allows you to creat
 After the base image is decided on you can add  additional software such as: software packages from public or proprietary distributions,  additional files or code that you develop yourself for your use case.
         
 The core artifact for building an image is the Dockerfile containing Dockerfile Instructions.  Docker have documented these instructions in the [Dockerfile Reference](https://docs.docker.com/reference/builder/)  - here are some example of the most commonly used:
+
 * **FROM** - adds the base image to the file, and must be first instruction in Dockerfile 
 * **MAINTAINER** - name and email address of image maintainer
 * **RUN** - runs OS commands as part of image build process for example to download and install software packages from repositories.
@@ -35,6 +36,7 @@ The core artifact for building an image is the Dockerfile containing Dockerfile 
 * **EXPOSE** - expose a port to host
 
 A number of Docker commands that are used all the time with images- see [Getting Started with Docker Images](https://docs.docker.com/userguide/dockerimages/).  Here are some of the most commonly used:
+
 * `docker build` - this is one of the the most important Docker commands.  It reads the Dockerfile and actually builds the docker image
 * `docker images` - list docker images
 * `docker rmi` - delete docker images
@@ -45,6 +47,7 @@ Dockerfile is not the only way to build an image- but is a best practice and a f
 The container is fundamental to and epitomizes Docker. The container is how Docker implements virtualization - a container behaves like a vitual linux computer.  Docker acts as the engine for running one or more containers on a host computer.
 
 Containers are created from images using the `docker run` command, so this is a very important docker command and is documented in the [Docker run reference](https://docs.docker.com/reference/run/).  The  `docker run` command has a number of arguments, here are some of the most important:
+
 * **image name**  :  the image defines the operating system and software stack that runs in the container.
 * **-d**  :  run the container in disconnected mode
 * **-i**  :  run the container in interactive mode
@@ -54,6 +57,7 @@ Containers are created from images using the `docker run` command, so this is a 
 * **-p**  :  map a port between container and host
 
 Some of the common commands for use with docker containers are
+
 * `docker run` - creates and runs container
 * `docker ps`  - list running congtainers
 * `docker rm`  - delete a container
@@ -86,6 +90,7 @@ I am using Docker on linux hosts, AWS EC2 and laptop with Ubuntu. I would like t
 
 ### Docker Eco-System
 A number of tools are available within the Docker Eco-System.  They include
+
 * Compose
 * Machine
 * Swarm
