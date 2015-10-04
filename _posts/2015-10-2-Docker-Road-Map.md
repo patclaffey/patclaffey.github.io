@@ -82,7 +82,7 @@ The benefit of registering on Docker Hub is that it allows you to save your Dock
 To move beyond the fundamentals I am looking for and reading more in-depth Docker articles.  I have found the [Innovation Lab Blogs](https://labs.ctl.io/blog/) very helpful.
 For example the posting [Dockerfile ENTRYPOINT vs CMD](https://labs.ctl.io/dockerfile-entrypoint-vs-cmd/) by Brian DeHamer- he explains with clarity the subtleties of running commands and software at container startup.  By the same author is another excellent article [Gracefully Stopping Docker Containers](https://labs.ctl.io/gracefully-stopping-docker-containers/)
 
-"The Docker Booki" by James Turnbull contains a lot of useful information on complex Docker deployments. 
+"The Docker Book" by James Turnbull contains a lot of useful information on complex Docker deployments. 
 
 ### Docker in the Python Eco-System
 I am interested in using Docker within the Python eco-system.  As an example I have developed a Docker image and container for Jupyter. 
@@ -106,5 +106,5 @@ There is no shortage of things to learn in Docker.
 ## Conclusion
 Docker is a technology I can apply to my Python development work.  This blog has been written in a application running in my Docker container. 
 I would like to further investigate the potential of Docker to benefit the Python community, with Dockers superior virtualization and portability between environments and devices. 
-Docker fits neatly with my interest in linux and studying linux system administration.
-I plan to continue to progress my Docker skills. moving beyond Docker fundamentals, and learning the advanced Docker skills.
+Docker fits neatly with my interest in linux and study of linux system administration.
+I am interested in progressing my Docker skills, moving beyond the Docker fundamentals, and learning the advanced Docker toolsi and techniques.
