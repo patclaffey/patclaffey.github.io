@@ -107,4 +107,4 @@ There is no shortage of things to learn in Docker.
 Docker is a technology I can apply to my Python development work.  This blog has been written in a application running in my Docker container. 
 I would like to further investigate the potential of Docker to benefit the Python community, with Dockers superior virtualization and portability between environments and devices. 
 Docker fits neatly with my interest in linux and study of linux system administration.
-I am interested in progressing my Docker skills, moving beyond the Docker fundamentals, and learning the advanced Docker toolsi and techniques.
+I am interested in progressing my Docker skills, moving beyond the Docker fundamentals, and learning the advanced Docker tools and techniques.
