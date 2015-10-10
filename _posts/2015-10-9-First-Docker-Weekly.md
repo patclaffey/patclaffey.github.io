@@ -18,7 +18,7 @@ Who knew all about it before I did was Peter in Nairobi Kenya
 Who knew all about it before I did was [Nic Roland](https://twitter.com/nicr9_)
 ![email from Nic](/images/email_nic.png)
 
-In the end I know all about it
+So thats how I knew all about it
 
 So thats how I got published in Docker Weekly
 
