@@ -15,7 +15,7 @@ I guess it all started with the Demonware Docker Bootcamp
 Who knew all about it before I did was Peter in Nairobi Kenya
 ![email from Peter](/images/email_pete.png)
 
-Who knew all about it before I did was [Nic Roland](https://twitter.com/nicr9)
+Who knew all about it before I did was [Nic Roland](https://twitter.com/nicr9_)
 ![email from Nic](/images/email_nic.png)
 
 In the end I know all about it
