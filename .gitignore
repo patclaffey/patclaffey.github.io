@@ -8,3 +8,4 @@ Gemfile.lock
 node_modules
 package.json_posts/*.swp
 _posts/*.swp
+*.md~
