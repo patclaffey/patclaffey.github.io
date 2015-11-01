@@ -16,7 +16,7 @@ permalink: /about/
 - Amazon Web Service (AWS) trained in AWS cloud architecture  
 + Awarded first class honours in NCI post-graduate diploma in Data Analytics majoring in Python, big data and social media (Feb 2015)  
 + Studying Linux System Administration and Cisco Networking at Institute of Technology Blanchardstown
-+ Research application of Docker to Python eco-system  
++ Researching the application of Docker containerization technology to the Python eco-system
 
 ### Contact me
 
