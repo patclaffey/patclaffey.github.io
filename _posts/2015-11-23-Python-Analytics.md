@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Python Analytics for Fitness Data 
-updated: November 23, 2015
+title: Benchmark of Python Analytics for Fitness
+updated: November 25, 2015
 ---
 
-This blog shows the results of using Python analytics with fitness data.
-The fitness data relates to a ride from the Great Dublin Cycle - a 100km cycling sportif that took place in Dublin last September.
-The data was generated with a Garmin bike computer and is stored in a computer file in the Garmin activity format.
-Python analytics was used to analyze the Garmin activity file containing sensor data such as time, distance, cadence, heart rate and altitude.    
+This blog uses fitness data to benchmark Python analytics against the analytics from leading fitness websites. 
+The fitness data is from a ride in the Great Dublin Cycle - a 100km cycling sportif that took place in Dublin last September.
+This fitness data was created, and stored in a Garmin activity computer file, by a Garmin bike computer. 
+This data file contains sensor activity data such as time, distance, cadence, heart rate and altitude.    
 
 The same activity file was uploaded to 
  the [Garmin Connect website](https://connect.garmin.com/modern/activity/898238015) and also the [Strava website](https://www.strava.com/activities/391934220/overview). 
-This allows the Python analytics to be bench-marked against the equivalent features from these web-sites.
+This allows Python analytics to be benchmarked against the equivalent features from these websites.
 
-This blog finds that Python can analyse fitness data just as accurately as the leading web-sites.  This opens the possibility to use Python analytics to provide customized and personalized fitness analytics for the performance or serious amateur athlete. 
+This blog finds that Python can analyse fitness data to a similar level of accuracy as the leading web-sites.  This opens the possibility to use Python analytics to provide customized and personalized fitness analytics for the performance or serious amateur athlete. 
 
 ## Comparison of Summary Statistics
 
